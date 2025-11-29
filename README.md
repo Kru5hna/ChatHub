@@ -132,7 +132,7 @@ Chat-App/
 
 **Krushna Raut**
 
-- GitHub: [@Krushna](https://github.com/Krushna)
+- GitHub: [@Krushna](https://github.com/Kru5hna)
 
 ## 📧 Contact
 
