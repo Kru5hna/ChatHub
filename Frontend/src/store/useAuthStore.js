@@ -5,7 +5,7 @@ import { io } from "socket.io-client";
 
 
 const BASE_URL =
-  import.meta.env.MODE === "development" ? "http://localhost:3000" : "/";
+  import.meta.env.MODE === "development" ? "http://localhost:3000" : "https://chathub-production-5f0e.up.railway.app";
 
 export const useAuthStore = create((set, get) => ({
   authUser: null,
