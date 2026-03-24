@@ -16,8 +16,7 @@ export const generateToken = (user,res) => {
       maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
       httpOnly: true,
       secure: ENV.NODE_ENV === 'production' ? true : false, // use secure cookies in production
-      sameSite: 'strict',  
-      // sameSite: 'none'
+      sameSite: ENV.NODE_ENV === 'production' ? 'none' : 'strict',
    })
    return token;
 }
